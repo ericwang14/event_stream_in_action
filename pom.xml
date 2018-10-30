@@ -26,7 +26,7 @@ under the License.
   </prerequisites>
 
   <groupId>org.apache.samza</groupId>
-  <artifactId>hello-samza</artifactId>
+  <artifactId>nile-carts</artifactId>
   <version>0.14.0</version>
   <packaging>jar</packaging>
   <name>Samza Example</name>
@@ -253,19 +253,6 @@ under the License.
           <source>1.8</source>
           <target>1.8</target>
         </configuration>
-      </plugin>
-      <plugin>
-        <groupId>org.apache.rat</groupId>
-        <artifactId>apache-rat-plugin</artifactId>
-        <version>0.9</version>
-        <executions>
-          <execution>
-            <phase>test</phase>
-            <goals>
-              <goal>check</goal>
-            </goals>
-          </execution>
-        </executions>
       </plugin>
       <!-- plugin to build the tar.gz file filled with examples -->
       <plugin>
